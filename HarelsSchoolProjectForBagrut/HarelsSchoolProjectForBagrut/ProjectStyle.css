@@ -1,0 +1,168 @@
+﻿body {
+    background-color: thistle;
+}
+
+p, h1{
+    color: black;
+    font-family:Arial,'Franklin Gothic Medium', 'Arial Narrow';
+    text-align: left;
+}
+
+h1{
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+}
+
+li {
+    color: black;
+    font-family:Arial,'Franklin Gothic Medium', 'Arial Narrow';
+    float:left;
+    width: 10%;
+    height: 100%;
+    display:block;
+    padding: 10px;
+    text-align: center;
+}
+
+.errorBox {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: yellow;
+    color: red;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.shopButton {
+    text-decoration: none;
+    color: purple;
+    font-weight: bold;
+}
+
+ul{
+    background-color: lavender;
+    width:stretch;
+    padding: 10px;
+    margin: 15px;
+    border:solid 2px black;
+    overflow: hidden;
+    text-align: center;
+    height: 35px;  
+}
+
+.important{
+    font-weight: bold;
+    color: red;
+        
+}
+
+footer{
+    width: stretch;
+    background-color: darkslategrey;
+    padding: 3px;
+    height: 200px;
+}
+
+.footerText {
+    font-size: x-small;
+    color: black;
+
+}
+
+input {
+    border: none;
+    background: none;
+    color: red;
+    font-weight: bold;
+    font-size: inherit;
+}
+
+html {
+    scroll-behavior: smooth;
+    text-align: right;
+}
+
+.title{
+    font-weight: bold;
+    text-align: right;
+}
+
+.banner{
+    width: 100%;
+    height: 250px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-left {
+    position: absolute;
+    left: 50%;
+    -webkit-text-stroke: 0.5px black;
+    -webkit-text-stroke-color: white;
+    transform: translate(-50%, -50%);
+    bottom: 8px;
+}
+
+.shopPage{
+    background-color: mediumpurple;
+}
+
+.shopStyle {
+    background-color: mediumpurple;
+    width: stretch;
+    height: 100%;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.noBorder{
+    border: none;
+    background-color: mediumpurple;
+    width: stretch;
+    height: 700px;
+}
+
+.shopButton {
+    text-align: center;
+    width: 50%;
+    height: 50px;
+    float: none;
+    margin: auto;
+    color: black;
+    padding: 10px;
+}
+
+.inputBox{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+tr, th {
+    border: 1px solid black;
+    border-style: solid;
+    height: 20px;
+    width: 100px;
+}
+
+td {
+    border: 1px solid black;
+    border-style: solid;
+    height: 20px;
+    width: 100px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}

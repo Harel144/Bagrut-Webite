@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="HarelsSchoolProjectForBagrut.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>review series!</title>
+    <link href="ProjectStyle.css" rel="stylesheet">
+    <script type="text/javascript" src="BagrutJS.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="container">
+        <img src="Images\site-banner.png" alt="banner" class="banner">
+        <div class="bottom-left"><h1>Reviews!</h1></div>
+    </div>
+    <%=bar %>
+    <%=loginMsg %>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+    <footer class="footerText">
+        <%=bar %>
+        <p>Credit to Harel Mazar</p>
+        <br/><br/><br/>
+        <p>© All of the site code belongs to Harel and Harel only. taking any piece of code without premission will lead to the court</p>
+    </footer>
+</body>
+</html>
